@@ -1,11 +1,11 @@
 # Homebrew Tap for Enzyme
 
-This is the official Homebrew tap for [Enzyme](https://github.com/jshph/enzyme-python), an AI-powered knowledge management system for markdown vaults.
+This is the official Homebrew tap for [Enzyme](https://github.com/useenzyme/enzyme), an AI-powered knowledge management system for markdown vaults.
 
 ## Installation
 
 ```bash
-brew tap jshph/enzyme
+brew tap useenzyme/enzyme
 brew install enzyme
 ```
 
@@ -24,7 +24,7 @@ enzyme
 enzyme context "your search query"
 ```
 
-For more information, see the [main Enzyme repository](https://github.com/jshph/enzyme-python).
+For more information, see the [main Enzyme repository](https://github.com/useenzyme/enzyme).
 
 ## Supported Platforms
 
@@ -41,7 +41,7 @@ brew upgrade enzyme
 
 ```bash
 brew uninstall enzyme
-brew untap jshph/enzyme
+brew untap useenzyme/enzyme
 ```
 
 ## Development
@@ -60,7 +60,7 @@ If you need to manually update the formula:
 
 For issues with:
 - **Installation**: Report in this repository
-- **Enzyme functionality**: Report in the [main repository](https://github.com/jshph/enzyme-python/issues)
+- **Enzyme functionality**: Report in the [main repository](https://github.com/useenzyme/enzyme/issues)
 
 ## License
 
