@@ -1,17 +1,17 @@
 class EnzymeCli < Formula
   desc "Local-first knowledge indexing for Obsidian vaults"
-  homepage "https://github.com/byenzyme/enzyme"
-  version "0.7.2"
+  homepage "https://github.com/useenzyme/enzyme"
+  version "0.8.0"
   license "MIT"
 
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/byenzyme/enzyme/releases/download/v#{version}/enzyme-macos-arm64.tar.gz"
-    sha256 "11f5a3f6f3a4d2dab343fab4e1744599ecedee6a086f2da6c21ce4b00a3a1982"
+    url "https://github.com/useenzyme/enzyme/releases/download/v#{version}/enzyme-macos-arm64.tar.gz"
+    sha256 "6ffbebd3dd0a3d7386faa6cd532791e850c4e80e8ed0c22e828659ff390978f8"
   else
-    url "https://github.com/byenzyme/enzyme/releases/download/v#{version}/enzyme-macos-x86_64.tar.gz"
-    sha256 "53160b91af640b1d08493dfe549d656096914759a18cadecfbb1734bf63c3ac1"
+    url "https://github.com/useenzyme/enzyme/releases/download/v#{version}/enzyme-macos-x86_64.tar.gz"
+    sha256 "809f1ec1d8cef06573593452d077b94eb36e762081d539833c17d5df179421c7"
   end
 
   def install
@@ -32,7 +32,7 @@ class EnzymeCli < Formula
       Then ask your agent: Use Enzyme to inspect and initialize this vault.
       Terminal-only setup: enzyme scan --write-config && enzyme init
 
-      Setup guide: https://enzyme.garden/setup
+      Setup guide: https://memory.enzyme.garden/setup
     EOS
   end
 
