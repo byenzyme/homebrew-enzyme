@@ -1,17 +1,17 @@
 class EnzymeCli < Formula
   desc "Local-first knowledge indexing for Obsidian vaults"
   homepage "https://github.com/byenzyme/enzyme"
-  version "0.11.0"
+  version "0.11.1"
   license "MIT"
 
   depends_on :macos
 
   if Hardware::CPU.arm?
     url "https://github.com/byenzyme/enzyme/releases/download/v#{version}/enzyme-macos-arm64.tar.gz"
-    sha256 "b30461e9592311f2c9d4f3e08fb7df6da5ad89dec3eeef4c4c9078d50f2351f0"
+    sha256 "73e8d044ed27e745f43f030265b740b6db4d402d090382d05fdcfc6be1b3ce24"
   else
     url "https://github.com/byenzyme/enzyme/releases/download/v#{version}/enzyme-macos-x86_64.tar.gz"
-    sha256 "72ff24f2168a41a2a652bf9298ad770be39a2b121bf18122eaf001856537da07"
+    sha256 "a4c9dfd04e1dac147d6d72d8b485964c95c5c0a07906dc09be5a166d8554ce5e"
   end
 
   def install
